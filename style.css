@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-div
+.main
 {
     width: 80%;
     height: inherit;
@@ -15,7 +15,7 @@ div
     vertical-align: middle;
 }
 
-div h1
+.main h1
 {
     text-align: center;
     color: #755139;
@@ -23,9 +23,46 @@ div h1
     margin: 40px 0;
 }
 
-div p
+.main p
 {
     color: rgb(112, 103, 84);
     font-size: 2.2em;
     margin: 20px 30px;
+}
+
+.profile_link
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.profile_link h3
+{
+    text-align: center;
+    font-size: 2.2em;
+    color: #004B8D;
+}
+
+.profile_link a
+{
+    display: block;
+    text-decoration: none;
+    background-color: #004B8D;
+    color: wheat;
+    font-size: 1.7em;
+    text-align: center;
+    width: 20%;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.profile_link a:hover
+{
+    background-color: rgb(157, 190, 219);
+    color: #004B8D;
+    font-weight: bold;
+    border: 2px solid #004B8D;
 }
